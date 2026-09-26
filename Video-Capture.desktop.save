@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Jio Tv
+Comment=Play video capture card
+Exec=ffplay -f v4l2 -input_format mjpeg -video_size 1920x1080 -framerate 60 /dev/video2
+2
+Terminal=false
+Icon=/home/rudra/Desktop/jio.png
+Categories=AudioVideo;
